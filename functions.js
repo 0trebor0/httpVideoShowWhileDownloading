@@ -34,7 +34,6 @@ methods.error = function(res){
     res.writeHead(200,{'Content-Type': 'text/html'});
     res.write("Error");
     res.end();
-        
 }
 
 exports.commands = methods;
